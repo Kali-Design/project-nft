@@ -7,9 +7,31 @@
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",
     "@nomiclabs/hardhat-waffle": "^2.0.0",
-    "chai": "^4.2.0",
+    "@openzeppelin/test-environment": "^0.1.9",
+    "@openzeppelin/test-helpers": "^0.5.12",
+    "chai": "^4.3.4",
+    "eslint": "^7.30.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-mocha-no-only": "^1.1.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-standard": "^5.0.0",
     "ethereum-waffle": "^3.0.0",
-    "ethers": "^5.0.0",
-    "hardhat": "^2.4.3"
+    "ethers": "^5.4.1",
+    "hardhat": "^2.4.3",
+    "hardhat-docgen": "^1.1.1",
+    "mocha": "^9.0.2",
+    "prettier": "^2.3.2",
+    "prettier-plugin-solidity": "^1.0.0-beta.15",
+    "solhint": "^3.3.6"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "openzeppelin-solidity": "^4.2.0",
+    "web3": "^1.4.0"
   }
 }
