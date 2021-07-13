@@ -1,4 +1,8 @@
-# project-nft
+# **projet-nft**
+
+[![forthebadge](https://forthebadge.com/images/badges/its-not-a-lie-if-you-believe-it.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
+
 
 # Getting Started with Create React App
 
@@ -70,5 +74,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# project nft
+
+## Auteur
+
+- **Henri-Michel LEOCADIE** _alias_ [Kali-Design](https://github.com/kali-Design)
+
+## License
+
+Ce projet est sous licence `MIT` - voir le fichier [LICENSE.md](LICENSE.md) pour plus d'informations
+# project-nft
+
 
