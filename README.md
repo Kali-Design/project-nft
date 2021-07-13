@@ -6,7 +6,7 @@
 
 ## README.md 
 
-** Working progress **
+- **Working progress**
 
 ## Auteur
 
