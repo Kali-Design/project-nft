@@ -1,4 +1,3 @@
-
 // SPDX-License-Identifier: MIT
 // pragma experimental SMTChecker;
 pragma solidity ^0.8.0;
