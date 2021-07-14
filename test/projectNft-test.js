@@ -1,19 +1,19 @@
 const { expect } = require('chai');
 
-describe('Greeter', function () {
-  it('Should return the new greeting once it\'s changed', async function () {
-    // eslint-disable-next-line no-undef
-    const Greeter = await ethers.getContractFactory('Greeter');
-    const greeter = await Greeter.deploy('Hello, world!');
-    await greeter.deployed();
+describe('ProjectNft', function () {
+  it('Should return the new nft once it\'s changed', async function () {
+   
+    const ProjectNft= await ethers.getContractFactory('ProjectNft');
+    const projectnft= await ProjectNft.deploy('Hello, world!');
+    await projectnft.deployed();
 
-    expect(await greeter.greet()).to.equal('Hello, world!');
+    expect(await projectnft.nft()).to.equal('Hello, world!');
 
-    const setGreetingTx = await greeter.setGreeting('Hola, mundo!');
+    const setNftingTx = await projectnft.setNft('Hola, mundo!');
 
     // wait until the transaction is mined
-    await setGreetingTx.wait();
+    await setNftingTx.wait();
 
-    expect(await greeter.greet()).to.equal('Hola, mundo!');
+    expect(await projectnft.nft()).to.equal('Hola, mundo!');
   });
 });
